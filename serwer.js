@@ -7,7 +7,7 @@ var tab = [
     { id: 2, login: "aaa", password: "1", wiek: 16, uczen: "checked", plec: "k" }
 ]
 var logowanie = 0
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
