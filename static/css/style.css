@@ -1,0 +1,90 @@
+body{
+    font-family: DejaVu Sans Mono, monospace;
+    margin:0px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(47, 67, 163);
+    width: 100%;
+    height: 50px;
+}
+.navbar >a:first-child{
+    margin-left:50px;
+}
+.adminbar{
+    display: flex;
+    justify-content: flex-start;
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+}
+.adminbar >a{
+    color:black;
+}
+.adminbar >a:first-child{
+    margin-left:50px;
+}
+a{
+    font-size: 20px;
+    margin-top:13px;
+    margin-left: 15px;
+    color:white;
+
+}
+.content{
+    color:grey;
+    font-size:130px;
+    text-align: center;
+}
+p{
+    margin-top:15px;
+    color:rgb(220,220,220);
+    margin-bottom: 0px;
+}
+select{
+    width: 95%;
+    height: 25px;
+    border:rgb(200,200,200) solid 1px;
+    border-radius: 2px;
+    color:blue;
+}
+#sub{
+    width: 190%;
+    height: 30px;
+    border:grey solid 1px;
+    border-radius: 2px;
+}   
+.form{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+td{
+    border-top:15px solid white;
+}
+.rad{
+    height: 20px;
+    width: 20px;
+}
+input{
+    border:rgb(200,200,200) solid 1px;
+    border-radius: 2px;
+    height:20px
+}td>div{
+    display:flex;
+    flex-direction: row;
+
+}
+.bot{
+    margin-top:4px ;
+}
+.brak{
+    background-color: rgb(208,45,91);
+}
